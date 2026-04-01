@@ -1,18 +1,9 @@
 pluginManagement {
     repositories {
-        google {
-            content {
-                includeGroupByRegex("com\\.android.*")
-                includeGroupByRegex("com\\.google.*")
-                includeGroupByRegex("androidx.*")
-            }
-        }
+        google()
         mavenCentral()
         gradlePluginPortal()
     }
-}
-plugins {
-
 }
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
@@ -24,10 +15,10 @@ dependencyResolutionManagement {
 
 rootProject.name = "1project"
 include(":app")
-include(":layouttype")
-include(":control_lesson1")
-include(":buttonclicker")
-include(":ActivityLifecycle")
-include(":MultiActivity")
-include(":IntentFilter")
-include(":Dialog")
+include(":practice1:layouttype")
+include(":practice1:control_lesson1")
+include(":practice1:buttonclicker")
+include(":practice2:ActivityLifecycle")
+include(":practice2:MultiActivity")
+include(":practice2:IntentFilter")
+include(":practice2:Dialog")

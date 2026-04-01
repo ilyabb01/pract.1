@@ -9,14 +9,16 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/ActivityLifecycle" />
-            <option value="$PROJECT_DIR$/Dialog" />
-            <option value="$PROJECT_DIR$/IntentFilter" />
-            <option value="$PROJECT_DIR$/MultiActivity" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/buttonclicker" />
-            <option value="$PROJECT_DIR$/control_lesson1" />
-            <option value="$PROJECT_DIR$/layouttype" />
+            <option value="$PROJECT_DIR$/practice1" />
+            <option value="$PROJECT_DIR$/practice1/buttonclicker" />
+            <option value="$PROJECT_DIR$/practice1/control_lesson1" />
+            <option value="$PROJECT_DIR$/practice1/layouttype" />
+            <option value="$PROJECT_DIR$/practice2" />
+            <option value="$PROJECT_DIR$/practice2/ActivityLifecycle" />
+            <option value="$PROJECT_DIR$/practice2/Dialog" />
+            <option value="$PROJECT_DIR$/practice2/IntentFilter" />
+            <option value="$PROJECT_DIR$/practice2/MultiActivity" />
           </set>
         </option>
       </GradleProjectSettings>
